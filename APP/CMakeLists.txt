@@ -41,7 +41,7 @@ add_custom_target(flash ALL
                 ) 
                 
 add_custom_target(burn ALL
-                 DEPENDS flash 
+                DEPENDS flash 
                 COMMAND  avrdude -c usbasp -p m32 -B 0.5 -U flash:w:"${PROJECT_NAME}.hex":a 
 )
 
