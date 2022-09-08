@@ -4,7 +4,7 @@ Gesture Control Wheel Chair using ATmega-32
 # Project Description
 The WheelChair connected to 4 wheels every wheel conected to DC-Motor.
 
-Every 2 DC-Motors connected to L298 Module to provide the required Volt for every motor 
+Every 2 DC-Motors connected to L298 Module to provide the required Voltage for every motor 
 and to help the motor to rotate in 2 different ways (Clockwise/CounterClockwise).
 
 The MCU connected to HC-05(Bluetooth module) so it can receive the moving direction from a phone APP.
