@@ -1,6 +1,6 @@
 # Gesture Control Wheelchair using ATmega-32
 
-# Project Description
+## Project Description
 The Wheelchair is connected to 4 wheels every wheel connected to DC-Motor.
 
 Every 2 DC-Motors connected to L298 Module to provide the required Voltage for every motor and to help the motor to rotate in 2 different ways (clockwise/counterclockwise).
@@ -8,7 +8,7 @@ Every 2 DC-Motors connected to L298 Module to provide the required Voltage for e
 The MCU connected to HC-05(Bluetooth module) so it can receive the moving direction from a phone APP.
 The moving direction is determined by the gesticulation direction of the phone.
 
-# Architecture Layer:
+## Architecture Layer:
 
  -APP Folder has the Main Application: 
    1. `main.c` 
@@ -28,7 +28,7 @@ The moving direction is determined by the gesticulation direction of the phone.
    1. `BIT_MATH.h`
    2. `STD_TYPES.h`
 
-# The hardware that has been used is:
+## The hardware that has been used is:
  1. ATmega-32
  2. L298
  3. motors
