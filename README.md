@@ -22,7 +22,7 @@ The moving direction is determined by the gesticulation direction of the phone.
     
  - MCAL Folder has DIO Driver (which is needed because HAL Layer Connects to MCAL Layer):
    1. DIO
-   2. Cart
+   2. Uart
    
  - LIB Folder has (.h) Files has useful Macros to make the code easier and more readable:
    1. `BIT_MATH.h`
