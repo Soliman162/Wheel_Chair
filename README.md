@@ -11,9 +11,9 @@ The moving direction is determined by the gesticulation direction of the phone.
 ## Architecture Layer:
 
  - The APP Folder has the Main Application: 
-   1. `main. ca 
-   2. `Wheel_Chair/wheel_chair.ca
-   3. `Wheel_Chair/wheel_chair.he
+   1. `main. c`
+   2. `Wheel_Chair/wheel_chair.c`
+   3. `Wheel_Chair/wheel_chair.h`
    4. Cmake Files
    
  - HAL Folder has: 
